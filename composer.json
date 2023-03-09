@@ -1,0 +1,27 @@
+{
+    "name": "apple/cse485_btth03",
+    "autoload": {
+        "psr-4": {
+            "Apple\\Cse485Btth03\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hung",
+            "email": "nguyenhunglt2201@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "twig/twig": "^3.5",
+        "phpunit/phpunit": "^9.5",
+        "phpmailer/phpmailer": "^6.8"
+    },
+
+    "config": {
+
+        "platform": {"platform-check": false,
+            "php": "7.1.0"
+        }
+    }
+}
